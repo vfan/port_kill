@@ -13,15 +13,9 @@
 
 ### 使用 go install
 
-```bash
-go install github.com/<your-username>/port_kill@latest
-```
-
-或者从本地源码安装：
+clone代码后，在项目根目录下执行以下命令：
 
 ```bash
-git clone <repository-url>
-cd port_kill
 go install
 ```
 
@@ -32,9 +26,6 @@ go install
 ### 使用方式
 
 ```bash
-# 终止占用 8080 端口的进程
-./portkill 8080
-
 # 或者
 portkill 8080
 ```
